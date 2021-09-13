@@ -1,0 +1,22 @@
+<div class="bwm-list-page">
+    <h1 class="title">Top Xiaomi Mobiles</h1>
+    <!-- TODO: Create custom directive in end of this section -->
+    <div class="row">
+      <div 
+      *ngFor="let redmi of redmis"
+        class="col-md-3 col-xs-12">
+       
+        <app-redmi-card 
+        [redmiItem]="redmi">
+        </app-redmi-card>
+      </div>
+    </div>
+   
+  </div>
+  
+
+  
+  
+  
+  
+  

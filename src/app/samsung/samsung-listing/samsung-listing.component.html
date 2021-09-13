@@ -1,0 +1,22 @@
+<div class="bwm-list-page">
+    <h1 class="title">Top Samsung Mobiles</h1>
+    <!-- TODO: Create custom directive in end of this section -->
+    <div class="row">
+      <div 
+      *ngFor="let samsung of samsungs"
+        class="col-md-3 col-xs-12">
+       
+        <app-samsung-card 
+        [samsungItem]="samsung">
+        </app-samsung-card>
+      </div>
+    </div>
+   
+  </div>
+  
+
+  
+  
+  
+  
+  

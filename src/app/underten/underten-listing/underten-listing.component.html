@@ -1,0 +1,14 @@
+<div class="bwm-list-page">
+    <h1 class="title">Best mobiles under Rs 10000</h1>
+    <!-- TODO: Create custom directive in end of this section -->
+    <div class="row">
+      <div 
+      *ngFor="let underten of undertens"
+        class="col-md-3 col-xs-12">
+        <app-underten-card 
+        [undertenItem]="underten">
+        </app-underten-card>
+      </div>
+    </div>
+  </div>
+  

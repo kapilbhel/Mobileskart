@@ -1,0 +1,14 @@
+<div class="bwm-list-page">
+    <h1 class="title">Best mobiles under Rs 20000</h1>
+    <!-- TODO: Create custom directive in end of this section -->
+    <div class="row">
+      <div 
+      *ngFor="let undertwo of undertwos"
+        class="col-md-3 col-xs-12">
+        <app-undertwo-card 
+        [undertwoItem]="undertwo">
+        </app-undertwo-card>
+      </div>
+    </div>
+  </div>
+  

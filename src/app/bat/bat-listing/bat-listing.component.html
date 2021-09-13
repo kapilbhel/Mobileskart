@@ -1,0 +1,22 @@
+<div class="bwm-list-page">
+    <h1 class="title">Top Battery Backup Mobiles</h1>
+    <!-- TODO: Create custom directive in end of this section -->
+    <div class="row">
+      <div 
+      *ngFor="let bat of bats"
+        class="col-md-3 col-xs-12">
+       
+        <app-bat-card 
+        [batItem]="bat">
+        </app-bat-card>
+      </div>
+    </div>
+   
+  </div>
+  
+
+  
+  
+  
+  
+  

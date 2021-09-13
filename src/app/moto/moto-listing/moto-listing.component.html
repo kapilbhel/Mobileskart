@@ -1,0 +1,22 @@
+<div class="bwm-list-page">
+    <h1 class="title">Top Motorola Mobiles</h1>
+    <!-- TODO: Create custom directive in end of this section -->
+    <div class="row">
+      <div 
+      *ngFor="let moto of motos"
+        class="col-md-3 col-xs-12">
+       
+        <app-moto-card 
+        [motoItem]="moto">
+        </app-moto-card>
+      </div>
+    </div>
+   
+  </div>
+  
+
+  
+  
+  
+  
+  

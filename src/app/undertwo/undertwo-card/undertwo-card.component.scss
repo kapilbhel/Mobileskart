@@ -1,0 +1,29 @@
+
+a {
+    text-decoration: none;
+  }
+
+/* SINGLE CARD STYLES*/
+.bwm-card {
+  border: none;
+  width: 150px;
+  height: 150px;
+
+  .card-block {
+    padding-top: 8px;
+
+    .card-title {
+        font-size: 25px;
+        margin: 3px 0;
+        color: black;
+      }
+
+    .card-subtitle {
+      margin: 0;
+      font-weight: 500;
+      font-size: 15px;
+      text-transform: uppercase;
+      color: #16861a;
+    }
+  }
+}
